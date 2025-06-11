@@ -1,0 +1,63 @@
+import React from 'react';
+import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
+
+interface PersonalInfo {
+  name: string;
+  title: string;
+  resumeUrl: string;
+}
+
+interface HeroSectionProps {
+  personalInfo: PersonalInfo;
+  onDownloadResume: () => void;
+}
+
+export function HeroSection({ personalInfo, onDownloadResume }: HeroSectionProps) {
+  return (
+    <section 
+      className="relative min-h-screen flex items-center justify-center px-4" 
+      style={{
+        backgroundImage: 'url(/back.jpg)',  // Correct path to the background image
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '730px',  // Adjust this based on your preference
+      }}
+    >
+      {/* Overlay to darken the background for better readability */}
+      <div className="absolute inset-0 bg-black opacity-40"></div>
+
+      <div className="relative z-10 text-center text-white animate-fade-in">
+        {/* Profile Image */}
+        <div className="mb-6">
+          <img
+            src="/profile.jpeg"  // Correct path to the profile image in public folder
+            alt="Saumya Babariya"
+            className="w-32 h-32 rounded-full mx-auto object-cover"
+          />
+        </div>
+
+        {/* Name and Title */}
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          {personalInfo.name}
+        </h1>
+        <p className="text-xl md:text-2xl mb-8 text-gray-300">
+          {personalInfo.title}
+        </p>
+
+        {/* Action Buttons */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Button onClick={onDownloadResume} className="bg-purple-600 hover:bg-purple-700">
+            <Download className="w-4 h-4 mr-2" />
+            Download Resume
+          </Button>
+          <Button variant="outline" asChild className="border-white/20 text-white hover:bg-white/10">
+            <a href="#contact">Get In Touch</a>
+          </Button>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default HeroSection;
