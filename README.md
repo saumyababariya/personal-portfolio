@@ -15,8 +15,6 @@ This is a web development project built during my internship using modern fronte
 - Responsive design
 - Interactive UI built with React
 - Styled using Tailwind CSS
-- Component-based structure using shadcn-ui
-- [Add any special features you implemented]
 
 ---
 
