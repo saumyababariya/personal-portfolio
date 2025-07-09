@@ -6,7 +6,7 @@ This is a web development project built during my internship using modern fronte
 
 ## 🚀 Live Project
 
-**URL**: [https://lovable.dev/projects/6000a960-23d5-4ada-ba6a-0463b8b56d5b](https://lovable.dev/projects/6000a960-23d5-4ada-ba6a-0463b8b56d5b)
+**URL**: [https://personalport27.netlify.app/](https://personalport27.netlify.app/)
 
 ---
 
@@ -23,10 +23,15 @@ This is a web development project built during my internship using modern fronte
 ## 📸 Output Screenshots
 
 ### Homepage
-![Homepage](./screenshots/home.png)
+![Homepage](./screenshots/Home.png)
 
 ### [Another Page - Edit Title]
-![Feature](./screenshots/feature.png)
+![About me](./screenshots/Aboutme.png)
+
+![About me](./screenshots/Aboutme.png)
+![Skills](./screenshots/Skills.png)
+![Projects](./screenshots/projects.png)
+![Get in Touch](./screenshots/getintouch.png)
 
 > Screenshots are stored inside the `screenshots/` folder.
 
