@@ -2,7 +2,7 @@
 
 ## 🌟 Project Description
 
-This is a web development project built during my internship using modern frontend technologies. The project showcases [brief description of what your app does — e.g., "a shopping cart interface", "a personal portfolio", etc.].
+This is a web development project built during my internship using modern frontend technologies. The project showcases my personal portfolio
 
 ## 🚀 Live Project
 
@@ -25,12 +25,16 @@ This is a web development project built during my internship using modern fronte
 ### Homepage
 ![Homepage](./screenshots/Home.png)
 
-### [Another Page - Edit Title]
+### About me
 ![About me](./screenshots/Aboutme.png)
 
-![About me](./screenshots/Aboutme.png)
+### Skills
 ![Skills](./screenshots/Skills.png)
+
+### Projects
 ![Projects](./screenshots/projects.png)
+
+### Get in Touch
 ![Get in Touch](./screenshots/getintouch.png)
 
 > Screenshots are stored inside the `screenshots/` folder.
