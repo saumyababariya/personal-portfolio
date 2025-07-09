@@ -56,10 +56,10 @@ Make sure Node.js and npm are installed — [Install with nvm](https://github.co
 
 ```bash
 # Step 1: Clone the repository using the Git URL
-git clone <YOUR_GIT_URL>
+git clone https://github.com/saumyababariya/personal-portfolio/
 
 # Step 2: Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
+cd personal-portfolio
 
 # Step 3: Install dependencies
 npm install
